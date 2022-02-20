@@ -39,7 +39,6 @@ export const Card = styled.section`
   }
 `
 export const TextRequestFailed = styled.p`
-  margin-top: 50px;
   font-weight: bold;
   font-size: 1.2rem;
   text-align: center;
