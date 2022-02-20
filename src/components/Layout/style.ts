@@ -2,9 +2,8 @@ import styled from "styled-components"
 import { color } from "theme/colors"
 
 export const Container = styled.main`
-  position: relative;
-  padding-top: 2rem;
   height: 100vh;
+  padding-top: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,7 +11,7 @@ export const Container = styled.main`
 `
 export const SelectContainer = styled.div`
   margin-bottom: 36px;
-
+  height: 120px;
   .select {
     width: 280px;
   }
